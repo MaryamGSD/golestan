@@ -650,13 +650,14 @@
     }
   }
   .second {
-    height: 570px !important;
     background-color: #ffffff !important;
-    margin-top: 10px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 574px !important;
     .recipes-item {
-      img {
-        width: 100% !important;
-      }
+      width: 23% !important;
+      height: auto !important;
     }
   }
   .responsibility {
